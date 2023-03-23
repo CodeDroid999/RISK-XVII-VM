@@ -18,7 +18,8 @@ was is to install Windows Subsystem Linux, in which case the instructions will
 be exactly the same as on Linux. The second way is to download a zip file from
 Github, extract the files, and use either MinGW or Cygwin to build RISK-XVII.
 
-```shell
+```
+shell
 cd RISK-XVII-PROGRAM\\src
 # invoke the version of make installed on your system
 # add the resulting 'riskxvii.exe' to your windows path
@@ -28,7 +29,8 @@ cd RISK-XVII-PROGRAM\\src
 
 Dependencies: `xcode command line tools`
 
-```shell
+```
+shell
 xcode-select --install
 cd RISK-XVII-PROGRAM/src
 make
